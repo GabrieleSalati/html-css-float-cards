@@ -28,6 +28,8 @@ main {
 
 h1 {
     margin: 0;
+    color: #A72A56;
+    padding: 50px;
 }
 
 .column {
@@ -64,6 +66,7 @@ a {
     vertical-align: bottom;
     font-size: 15px;
     color: #359DBA;
+    text-decoration: none;
 }
 
 
