@@ -16,13 +16,11 @@ body {
 
 body {
     font-family: 'Fredoka', sans-serif;
-    background-color: darkgray;
 }
 
 /* General */
 
 main {
-    width: 1200px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
@@ -32,13 +30,44 @@ h1 {
     margin: 0;
 }
 
+.column {
+    width: calc(100% / 3);
+    display: inline-block;
+    background-color: #0F0E17;
+    width: 400px;
+    margin:  10px;
+}
 
-
-
-section:first-child > div{
+img {
     float: left;
+    width: 30%;
+    height: 30%;
+    vertical-align: middle;
 }
 
-section:last-child > div{
-    float: right;
+h2 {
+    display: inline;
+    vertical-align: top;
+    color: #FDFDF9;
+    font-size: 20px;
 }
+
+h3 {
+    display: inline;
+    vertical-align: middle;
+    color: #FDFDF9;
+    font-size: 15px;
+}
+
+a {
+    display: inline;
+    vertical-align: bottom;
+    font-size: 15px;
+    color: #359DBA;
+}
+
+
+
+
+
+
