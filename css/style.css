@@ -1,0 +1,33 @@
+/* Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: darkgray;
+}
+
+/* General */
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
