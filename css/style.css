@@ -35,10 +35,10 @@ h1 {
 
 
 
-.row:first-child {
+section:first-child > div{
     float: left;
 }
 
-.row:last-child {
+section:last-child > div{
     float: right;
 }
