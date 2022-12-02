@@ -43,30 +43,29 @@ h1 {
 img {
     float: left;
     width: 30%;
-    height: 30%;
     vertical-align: middle;
 }
 
 h2 {
     display: inline;
-    vertical-align: top;
     color: #FDFDF9;
     font-size: 20px;
+    line-height: calc(120px / 3);
 }
 
 h3 {
     display: inline;
-    vertical-align: middle;
     color: #FDFDF9;
     font-size: 15px;
+    line-height: calc(120px / 3);
 }
 
 a {
     display: inline;
-    vertical-align: bottom;
     font-size: 15px;
     color: #359DBA;
     text-decoration: none;
+    line-height: calc(120px / 3);
 }
 
 
